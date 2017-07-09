@@ -4,7 +4,7 @@ scores = [0, 0];
 roundScore = 0;
 winningScore = 100;
 var current = 0;
-document.querySelector("input").value = 100;
+
 document.querySelector(".dice").style.display = "none";
 document.querySelector('.btn-hold').disabled = false;
 document.querySelector('.btn-roll').disabled = false;
