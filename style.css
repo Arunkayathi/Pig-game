@@ -190,7 +190,8 @@ i {
 }
 
 .dice,
-.wins {
+.wins,
+input {
     position: absolute;
     left: 50%;
     top: 178px;
@@ -204,6 +205,20 @@ i {
     color: #d33d3d;
     display: none;
     box-shadow: 0px 0px 0px
+}
+
+input {
+    height: 30px;
+    top: 520px;
+    box-shadow: 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Merriweather';
+    padding: 5px 0;
+}
+
+input:focus {
+    outline: none;
 }
 
 .winner {
